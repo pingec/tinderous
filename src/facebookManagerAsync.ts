@@ -6,7 +6,6 @@ export class FacebookManager {
 
     public static getAccessTokenAndIdAsync(fbUserEmail: string, fbUserPassword: string) {
 
-        debugger;
         var seleniumDriverPath = path.resolve("./selenium");
         if ((<string>process.env.PATH).indexOf(seleniumDriverPath) < 0) {
             process.env.PATH += ';' + seleniumDriverPath;
@@ -42,9 +41,7 @@ export class FacebookManager {
             });
         });
 
-        debugger;
         return Promise.all([fbTokenAcquired, fbIdAcquired]).then((results)=>{
-            debugger
             driver.quit();
             return results;
         });
