@@ -1,0 +1,15 @@
+# Private stuff
+private/
+
+# Private settings / login credentials
+config.json
+
+# VSCode settings
+.vscode/
+
+# Response dumps when debugging
+recommendations*.json
+history*.json
+updates*.json
+client.insta.match.on.like*.json
+

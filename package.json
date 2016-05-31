@@ -1,0 +1,37 @@
+{
+  "name": "tinderizer",
+  "version": "0.1.1",
+  "description": "An attempt to automate tinder, basic bot and some extra features",
+  "author": "Matej Drolc <matej.drolc@pingec.si>",
+  "homepage": "https://github.com/pingec/tinderizer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pingec/tinderizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pingec/tinderizer/issues",
+    "email": "matej.drolc@pingec.si"
+  },
+  "main": "./bin/tinderBotAsync.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "prepublish": "npm run compile",
+    "compile": "node ./node_modules/typescript/lib/tsc.js -p .",
+    "start": "node ./bin/start.js"
+  },
+  "keywords": [
+    "Tinder",
+    "bot",
+    "automation"
+  ],
+  "license": "MIT",
+  "man": "./README.md",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "selenium-webdriver": "^2.53.2",
+    "tinder": "^1.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
