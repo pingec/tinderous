@@ -1,15 +1,15 @@
 {
-  "name": "tinderizer",
+  "name": "tinderous",
   "version": "0.1.1",
   "description": "An attempt to automate tinder, basic bot and some extra features",
   "author": "Matej Drolc <matej.drolc@pingec.si>",
-  "homepage": "https://github.com/pingec/tinderizer",
+  "homepage": "https://github.com/pingec/tinderous",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pingec/tinderizer.git"
+    "url": "https://github.com/pingec/tinderous.git"
   },
   "bugs": {
-    "url": "https://github.com/pingec/tinderizer/issues",
+    "url": "https://github.com/pingec/tinderous/issues",
     "email": "matej.drolc@pingec.si"
   },
   "main": "./bin/tinderBotAsync.js",

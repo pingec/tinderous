@@ -1,5 +1,5 @@
 //without "declare" to make ti a global, we would need 
-//a "import {TinderConfiguration} from '../typings/tinderizerConfig.d.ts';" in each file that references it
+//a "import {TinderConfiguration} from '../typings/tinderousConfig.d.ts';" in each file that references it
 
 declare interface ConfigurationState { 
     configPath : string,

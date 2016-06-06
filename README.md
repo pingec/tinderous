@@ -1,4 +1,4 @@
-# Tinderizer
+# Tinderous
 
 A tinder bot/automation utility for social experimentation.
 
@@ -15,9 +15,9 @@ TODO:
 
 ## Run instructions
 
-0. `npm install tinderizer && move node_modules/tinderizer . && move node_modules tinderizer/ && cd tinderizer`
+0. `npm install tinderous && move node_modules/tinderous . && move node_modules tinderous/ && cd tinderous`
 
-0. Create config.json (copy/paste example below) inside tinderizer directory. 
+0. Create config.json (copy/paste example below) inside tinderous directory. 
     
     Most options can be left default. "fbUserId" and "fbUserAccessToken" must be specified or "user" and "password" must be specified in order to automatically retrieve the first two.
         
@@ -97,7 +97,7 @@ TODO: ne ve msgjat, samo tiste brez zgodovine!! messageOldMatches - if true will
 
 # Editing source (for developers)
 
-`git clone https://github.com/pingec/tinderizer.git` 
+`git clone https://github.com/pingec/tinderous.git` 
 
 Edit files in /src then do `npm run compile` to compile to /bin and then `npm start` to run /bin/start.js
 
