@@ -11,10 +11,10 @@ Promise.config({
     monitoring: false
 });
 
-process.on("unhandledRejection", function (reason, promise) {
-    debugger;
-    // Todo: unhandled scenario
-});
+// process.on("unhandledRejection", function (reason, promise) {
+//     debugger;
+//     // Todo: unhandled scenario
+// });
 
 const configPath = path.resolve('./config.json');
 
